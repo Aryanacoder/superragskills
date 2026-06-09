@@ -2,7 +2,7 @@
 
 The complete agent skill pack for designing, building, evaluating, and deploying retrieval-augmented generation applications.
 
-`superRAG-build` helps coding agents guide a user from "I want a RAG app" to a production-ready plan and implementation. It covers basic RAG, hybrid RAG, reranked RAG, metadata-filtered RAG, hierarchical RAG, GraphRAG, agentic RAG, corrective/self-RAG, multimodal RAG, structured-data RAG, local/offline RAG, and cloud deployments on AWS and Azure.
+`SuperRAG` helps coding agents guide a user from "I want a RAG app" to a production-ready plan and implementation. It covers basic RAG, hybrid RAG, reranked RAG, metadata-filtered RAG, hierarchical RAG, GraphRAG, agentic RAG, corrective/self-RAG, multimodal RAG, structured-data RAG, local/offline RAG, and cloud deployments on AWS and Azure.
 
 ## What It Includes
 
