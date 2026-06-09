@@ -1,0 +1,15 @@
+---
+description: Use for RAG app design, document copilots, vector-search chatbots, ingestion pipelines, source-grounded QA, retrieval evaluation, citations, OCR, reranking, or local/offline knowledge assistants.
+alwaysApply: false
+---
+
+# Build RAG Application
+
+When this rule applies, read `skills/build-rag-application/SKILL.md` and follow it.
+
+Key behavior:
+
+- Start with a structured interview.
+- Ask about goal, users, data, evidence, runtime constraints, initial stack idea, and demo success.
+- Produce a RAG brief, architecture, data contract, pipeline plan, retrieval plan, prompt policy, evaluation plan, and implementation backlog.
+- Prefer source-grounded answers, citation mapping, retrieval debug traces, and no-answer guardrails.
