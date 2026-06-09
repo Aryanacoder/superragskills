@@ -34,8 +34,14 @@ Use these templates when producing the final plan. Keep them concise and specifi
 ```md
 # Architecture
 
+## RAG Type Decision
+- Selected:
+- Why:
+- Rejected for V1:
+- Upgrade path:
+
 ## Recommended Shape
-[Local prototype / production API / offline knowledge pack / multimodal assistant / hybrid]
+[Local prototype / production API / offline knowledge pack / multimodal assistant / AWS managed / Azure managed / self-hosted]
 
 ## Why
 [Constraint-driven explanation]
@@ -51,6 +57,8 @@ Use these templates when producing the final plan. Keep them concise and specifi
 - UI/API:
 - Evaluation:
 - Deployment:
+- Security:
+- Observability:
 
 ## Main Risks
 - [Risk] -> [Mitigation]
@@ -132,11 +140,17 @@ Use these templates when producing the final plan. Keep them concise and specifi
 ## Recommendation
 [One paragraph]
 
+## RAG Type
+[Basic / hybrid / reranked / metadata-filtered / hierarchical / GraphRAG / agentic / multimodal / structured-data / local-offline]
+
 ## Build This First
 [Smallest useful version]
 
 ## Architecture
 [Bullets]
+
+## Deployment
+[Local / AWS / Azure / Kubernetes / other]
 
 ## Questions Still Open
 [Only unresolved high-risk questions]

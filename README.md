@@ -1,19 +1,27 @@
-# RAG Builder Skill Pack
+# superRAG-build
 
-A GitHub-ready agent skill for designing and building source-grounded RAG applications. It is meant for Claude Code, Cursor, Codex, and other agents that understand `SKILL.md`-style skills.
+The complete agent skill pack for designing, building, evaluating, and deploying retrieval-augmented generation applications.
 
-## What It Does
+`superRAG-build` helps coding agents guide a user from "I want a RAG app" to a production-ready plan and implementation. It covers basic RAG, hybrid RAG, reranked RAG, metadata-filtered RAG, hierarchical RAG, GraphRAG, agentic RAG, corrective/self-RAG, multimodal RAG, structured-data RAG, local/offline RAG, and cloud deployments on AWS and Azure.
 
-The main skill, `build-rag-application`, guides an AI agent through a granular RAG discovery interview, then produces a buildable architecture, ingestion plan, retrieval plan, evaluation plan, and implementation backlog.
+## What It Includes
 
-It distills general lessons from building local/offline technical RAG systems: chat UI design, FAISS/Qdrant-style indexing, OCR fallbacks, multilingual query handling, source previews, reranking, offline knowledge packs, feedback logs, and retrieval debugging.
+- A primary agent skill: `skills/superrag-build/SKILL.md`
+- RAG type decision matrix
+- Full discovery questionnaire
+- From-scratch build playbook
+- Provider and stack matrix
+- AWS, Azure, local server, Docker, and Kubernetes deployment playbooks
+- Evaluation and observability guide
+- Security and governance guide
+- Output templates and examples for coding agents
 
 ## Layout
 
 ```text
-rag-builder-skill-pack/
+superRAG-build/
   skills/
-    build-rag-application/
+    superrag-build/
       SKILL.md
       agents/openai.yaml
       references/
@@ -29,33 +37,39 @@ rag-builder-skill-pack/
 Claude Code:
 
 ```bash
-cp -r skills/build-rag-application ~/.claude/skills/build-rag-application
+cp -r skills/superrag-build ~/.claude/skills/superrag-build
 ```
 
 Codex:
 
 ```bash
 mkdir -p .agents/skills
-cp -r skills/build-rag-application .agents/skills/build-rag-application
+cp -r skills/superrag-build .agents/skills/superrag-build
 ```
 
 Cursor:
 
 ```bash
 mkdir -p .cursor/skills
-cp -r skills/build-rag-application .cursor/skills/build-rag-application
+cp -r skills/superrag-build .cursor/skills/superrag-build
 ```
 
-For Cursor rule-based fallback, keep `.cursor/rules/build-rag-application.mdc` in the repo.
+For Cursor rule-based fallback, keep `.cursor/rules/superrag-build.mdc` in the repo.
 
-## Example Prompt
+## Example Prompts
 
 ```text
-Use the build-rag-application skill. Interview me step by step and design the best RAG app for my data, constraints, and first demo.
+Use superRAG-build. Interview me and decide which RAG architecture I need.
 ```
 
-## Notes
+```text
+Use superRAG-build to design and implement a production RAG app for PDFs, tables, and internal tickets, deployable on Azure.
+```
 
-- The skill intentionally asks questions before coding.
-- It keeps the main `SKILL.md` focused and moves detailed checklists into `references/`.
-- It does not require scripts or runtime dependencies.
+```text
+Use superRAG-build to compare AWS Bedrock Knowledge Bases, Azure AI Search, and a self-hosted Qdrant stack for my requirements.
+```
+
+## Privacy
+
+This repository is built from public documentation, research, and generalized engineering lessons. It should not include private application code, private customer data, internal file paths, or proprietary corpus details.

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Build RAG Application"
-  short_description: "Design source-grounded RAG apps"
-  default_prompt: "Use this skill to interview me step by step and design the best RAG application for my data, constraints, and first demo."

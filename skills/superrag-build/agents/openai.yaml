@@ -1,0 +1,4 @@
+interface:
+  display_name: "superRAG-build"
+  short_description: "Build production-ready RAG apps"
+  default_prompt: "Use superRAG-build to interview me, choose the right RAG architecture, and create a build-and-deploy plan for my data, constraints, and first demo."

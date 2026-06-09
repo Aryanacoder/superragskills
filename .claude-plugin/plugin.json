@@ -1,20 +1,23 @@
 {
-  "name": "rag-builder-skill-pack",
-  "description": "Agent skill for interviewing users and designing source-grounded RAG applications",
+  "name": "superrag-build",
+  "description": "Complete agent skill pack for designing, building, evaluating, and deploying production RAG applications",
   "version": "0.1.0",
   "author": {
     "name": "Local Author"
   },
-  "homepage": "",
-  "repository": "",
+  "homepage": "https://github.com/Aryanacoder/rag-builder-skill-pack",
+  "repository": "https://github.com/Aryanacoder/rag-builder-skill-pack",
   "license": "MIT",
   "keywords": [
     "skills",
     "rag",
+    "superrag",
     "retrieval-augmented-generation",
     "vector-search",
     "claude",
     "cursor",
-    "codex"
+    "codex",
+    "aws",
+    "azure"
   ]
 }

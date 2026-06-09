@@ -1,13 +1,13 @@
 {
-  "name": "rag-builder-skill-pack",
-  "description": "Development marketplace for the RAG Builder skill pack",
+  "name": "superrag-build",
+  "description": "Development marketplace for the superRAG-build skill pack",
   "owner": {
     "name": "Local Author"
   },
   "plugins": [
     {
-      "name": "rag-builder-skill-pack",
-      "description": "Interview-driven RAG application design and implementation planning skill",
+      "name": "superrag-build",
+      "description": "End-to-end RAG architecture, implementation, evaluation, and deployment skill",
       "version": "0.1.0",
       "source": "./",
       "author": {

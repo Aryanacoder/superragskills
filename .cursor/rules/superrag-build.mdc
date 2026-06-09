@@ -1,0 +1,16 @@
+---
+description: Use for RAG app design, document copilots, vector-search chatbots, ingestion pipelines, source-grounded QA, retrieval evaluation, citations, OCR, reranking, GraphRAG, agentic RAG, multimodal RAG, structured-data RAG, AWS/Azure/local deployment, or production RAG architecture.
+alwaysApply: false
+---
+
+# superRAG-build
+
+When this rule applies, read `skills/superrag-build/SKILL.md` and follow it.
+
+Key behavior:
+
+- Start with a structured interview.
+- Classify the needed RAG type before choosing tools.
+- Ask about goal, users, data, evidence, risk, runtime constraints, preferred stack, deployment target, and demo success.
+- Produce a RAG brief, type decision, architecture, data contract, pipeline plan, retrieval plan, prompt policy, evaluation plan, and deployment plan.
+- Prefer source-grounded answers, citation mapping, access control, retrieval debug traces, eval gates, and no-answer guardrails.

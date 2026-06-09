@@ -1,11 +1,12 @@
 # Agent Instructions
 
-When the user asks to design, build, evaluate, or improve a RAG app, use the skill at `skills/build-rag-application/SKILL.md`.
+When the user asks to design, build, evaluate, improve, or deploy a RAG app, use the skill at `skills/superrag-build/SKILL.md`.
 
 Important behavior:
 
 - Interview before implementation unless the user has already supplied enough detail.
 - Ask questions in small batches.
-- Produce a concrete architecture and backlog before coding.
-- Prioritize source grounding, citations, retrieval evaluation, and safe no-answer behavior.
+- Select the correct RAG type before coding: basic, hybrid, reranked, agentic, GraphRAG, multimodal, structured-data, local/offline, AWS, Azure, or self-hosted.
+- Produce a concrete architecture, backlog, evaluation plan, and deployment plan before broad implementation.
+- Prioritize source grounding, citations, retrieval evaluation, access control, observability, and safe no-answer behavior.
 - For existing repos, inspect ingestion, indexing, retrieval, prompts, UI, and tests before changing code.
